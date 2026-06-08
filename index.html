@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моє резюме</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<button id="theme-btn">Змінити тему</button>
+
+<header>
+    <h1>Лупій Діана</h1>
+    <p>Студентка спеціальності Кібербезпека</p>
+</header>
+
+<main>
+
+<section>
+    <h2>Особиста інформація</h2>
+    <p>Email: kbz.2023@lpnu.ua</p>
+    <p>Телефон: +380123456789</p>
+</section>
+
+<section>
+    <h2>Освіта</h2>
+    <ul>
+        <li>Національний університет «Львівська політехніка» — Кібербезпека</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Навички</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>MATLAB</li>
+        <li>Git</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Досвід</h2>
+    <p>Навчальні проєкти з програмування та веброзробки.</p>
+</section>
+
+<section>
+    <h2>Посилання</h2>
+    <a href="https://github.com/" target="_blank">GitHub</a>
+</section>
+
+<section>
+    <h2>Відгуки роботодавців</h2>
+    <div id="reviews"></div>
+</section>
+
+</main>
+
+<div id="modal">
+
+    <form
+        action="https://formspree.io/f/xrevqkgk"
+        method="POST">
+
+        <h2>Зворотний зв'язок</h2>
+
+        <input type="text" name="name" placeholder="Ім'я" required>
+
+        <input type="email" name="email" placeholder="Email" required>
+
+        <input type="tel" name="phone" placeholder="Телефон">
+
+        <textarea
+            name="message"
+            placeholder="Ваше повідомлення"
+            required></textarea>
+
+        <button type="submit">
+            Відправити
+        </button>
+
+    </form>
+
+</div>
+
+<footer>
+    <p>2025</p>
+
+    <div id="system-info"></div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

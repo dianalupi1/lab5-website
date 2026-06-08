@@ -1,0 +1,132 @@
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: navy;
+}
+
+h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+}
+
+section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li:hover {
+    color: red;
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Відгуки */
+
+.review {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Кнопка зміни теми */
+
+#theme-btn {
+    padding: 10px 15px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Модальне вікно */
+
+#modal {
+    display: none;
+
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+
+    z-index: 1000;
+}
+
+#modal form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#modal input,
+#modal textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Темна тема */
+
+.dark {
+    background-color: #222;
+    color: white;
+}
+
+.dark section {
+    background-color: #333;
+    color: white;
+}
+
+.dark h2 {
+    color: #66b3ff;
+    border-bottom-color: #66b3ff;
+}
+
+.dark .review {
+    background-color: #444;
+    color: white;
+}
+
+.dark footer {
+    background-color: #111;
+}
